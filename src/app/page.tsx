@@ -214,7 +214,7 @@ export default function Home() {
             ☰
           </button>
           <h1 className="text-2xl font-bold text-green-400">
-            {activeChat ? activeChat.title : "Select or Create a Chat"}
+            {"Talk to Rick"}
           </h1>
         </div>
 
