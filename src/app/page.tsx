@@ -42,6 +42,8 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(true);
 
+  console.log(error);
+
   const chatRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
